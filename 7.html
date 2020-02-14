@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格</title>
+</head>
+<body>
+    <table> 表格
+        若干行  
+        <tr>
+            若干个单元格
+            <th>标题</th>
+            <td>内容</td>
+        </tr>
+
+    </table>
+    <table border="1">
+        <tr>
+            <th>部门</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>工资</th>
+        </tr>
+        <tr>
+            <Td>开发组</Td>
+            <Td>小明</Td>
+            <Td>男</Td>
+            <Td>1w</Td>
+        </tr>
+        <tr>
+            <td>开发组</td>
+            <td>小明明</td>
+            <td>女</td>
+            <td>1w</td>
+        </tr>
+        <tr>
+            <td>开发组</td>
+            <td>小晓明</td>
+            <td>男</td>
+            <td>1w</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            colspan 单元格横跨的列数
+            rowspan 单元格横跨的行数
+            <th>部门</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>工资</th>
+        </tr>
+        <tr>
+            <Td rowspan="4">开发组</Td>
+            <Td>小明</Td>
+            <Td>男</Td>
+            <Td>1w</Td>
+        </tr>
+        <tr>
+            
+            <td>小明明</td>
+            <td>女</td>
+            <td>1w</td>
+        </tr>
+        <tr>
+            
+            <td>小晓明</td>
+            <td>男</td>
+            <td>1w</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">工资合计</td>
+            <td>3w</td>
+        </tr>
+    </table>
+</body>
+</html>

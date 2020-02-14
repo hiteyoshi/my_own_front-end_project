@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片映射</title>
+</head>
+<body>
+    <a href="http://www.mi.com"><img src="misaka.png" alt=""></a>
+    <img src="misaka.png" alt="" usemap="#misakamap">
+    <map name="misakamap"> 地图
+        <area shape="circle" coords="233,456,50" href="http://www.baidu.com" target="_blank" alt=""> 定义可点击区域
+        circle coords="圆心坐标，园的半径" 这些数据可以通过截图工具得到截图的长宽(100%的比例下)
+        <area shape="rect" coords="314,446,431,523" href="http://www.bilibili.com" alt=""> 定义可点击区域
+        rect coords="左上角点的坐标，右下角点的坐标"
+        shape=poly 多边形,coords="每个顶点的坐标顺序排放"
+    </map>
+</body>
+</html>
