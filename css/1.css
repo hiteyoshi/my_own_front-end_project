@@ -1,0 +1,22 @@
+/*注释*/
+div{
+    color:red ;
+    width: 100ox; 
+    height: 100px;
+    background-color: yellow;
+    color: rgb(255,0, 0);
+    color: rgb(100%,0%, 10%);
+    color: #ff0000;
+}
+
+颜色
+rgb色彩模式：
+r 0-255
+g 
+b
+1. rgb(255,0,0)
+2.名称：red。。。
+3.16进制 #FF0000
+R 0-255 00-ff
+G 
+B 

@@ -1,0 +1,70 @@
+/*
+div{
+    background-color: red;
+}
+通过选择器找到html元素
+选择器分4大类
+1. 基本选择器
+2. 组合
+3. 属性
+4. 伪元素
+基本选择器
+  *通配符    标签div   id选择器 class
+
+  */
+
+  /*
+  通配符选择器
+* {
+    border: 1px solid black;
+}
+*/
+
+/*
+标签选择器
+div{
+    border: 1px solid black;
+}
+p{
+    border: 1px solid black;
+}
+*/
+/*
+id选择器
+#txt {
+    font-size: 60px;
+}
+等价于
+*#txt {
+    font-size: 60px;
+}
+
+表示p标签中id为txt的
+p#txt {
+    font-size: 60px;
+}
+一个标签只有一个id
+*/
+/* 
+class 选择器
+.txt {
+    font-size: 100px;
+}
+
+.txt2 {
+    color:red;
+}
+等同于
+*.txt2{
+    color:red;
+}
+
+表示div标签中class为txt2的
+div.txt2 {
+    color:red;
+}
+一个标签可有多个class 
+*/
+
+class 多用于css
+id 多用于js
