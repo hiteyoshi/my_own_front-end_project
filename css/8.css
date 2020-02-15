@@ -1,0 +1,22 @@
+a{
+    color: yellow;
+
+}
+/* 伪类
+初始状态
+被访问过的状态
+鼠标移动上去的状态
+点击的状态 */
+a:link{
+color: blue;
+}
+
+a:visited{
+color: yellow;
+}
+a:hover{
+color: red;
+}
+a:active{
+color: green;
+}

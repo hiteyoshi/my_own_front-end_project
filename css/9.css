@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+
+}
+
+li{
+    background-image: url('../misaka.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 20px;
+    padding: 25px 50px 0;
+
+}
+/* none: 不使用项目符号
+disc：实心圆
+circle：空心圆
+square：实心方块 */
+ol{
+
+}
+/* decimal：阿拉伯数字
+lower-alpha：小写英文字母
+upper-alpha：大写英文字母
+lower-roman：小写罗马数字
+upper-roman：大写罗马数字 */

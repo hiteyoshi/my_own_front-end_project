@@ -1,0 +1,84 @@
+把基本选择器 通过特殊符号串在一起， 带来特定的意义
+
+分组
+通过逗号',' 将多个选择器放在一起
+div {
+    background: green;
+}
+
+p {
+    background: green;
+    color: red;
+    font-size: 50px;
+}
+
+div,p {
+    background: green;
+}
+
+p {
+    color: red;
+    font-size: 50px;
+}
+
+嵌套选择器
+空格隔开
+div p -> div中包含的p
+div p {
+    color: red;
+    font-size: 50px;
+}
+
+子选择器
+ div > p  div的直接的子标签为p
+ div > p {
+    color: red;
+    font-size: 50px;
+}
+
+相邻同级别选择器
+div+p
+跟div同一级的p标签
+div+p {
+    color: red;
+    font-size: 50px;
+}
+
+属性选择器
+基本[属性]
+[属性=值]
+[属性~=值] 属性包含值
+[属性^=值] 属性以值开头的
+[属性$=值] 属性以值结束的
+包含title属性的pbiaoqian做样式
+p[title]{
+    color: red;
+    font-size: 50px; 
+}
+p[title=misaka]{
+    color: red;
+    font-size: 50px; 
+}
+
+伪元素选择器
+伪元素：不是自己写的，本身就偷偷定义的元素
+开始：<before>
+结束：<after>
+p::before{
+    content:"before";
+}
+p::after{
+    content:"after";
+}
+
+针对块元素的伪元素
+第一个字母：first-letter
+第一行： first-line 
+
+p::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+伪类选择器
+状态

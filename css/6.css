@@ -1,0 +1,9 @@
+body{
+    font-family: "宋体","黑体";优先级前面大于后面
+    font-size: 30px;默认16px=1em
+    font-weight:100; 100~900,间隔100，normal=400 lighter bold
+    font-style:italic; 斜体
+
+    font: style weight size/line-height  family
+    line-heigt: 60px; 行高
+}

@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+    background-image: url(../misaka.png);
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: 100px 100px; 50% 50%
+    height: 1500px; 出现滚动轴
+    background-attachment: fixed; 背景固定
+
+    background: red; 按顺序可集合上述所有的属性
+                color image repeat attachment
+}

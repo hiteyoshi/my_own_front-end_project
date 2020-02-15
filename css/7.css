@@ -1,0 +1,31 @@
+p{
+     color: red;
+    /* 字符间距 */
+    letter-spacing: 0px;
+    /* 空格的距离 */
+    word-spacing:0px;
+    /* direction:ltr; 从左到右 */
+    /* text-decoration:line-through; overline underline
+    文字的对齐方式 */
+    /* text-align:center;  */
+    /* left right justify */
+    width:250px;
+    /*height: 250px;*/
+    /* 缩进 */
+    /* text-indent:60px;  */
+    /* 大小写 */
+    /* text-transform:uppercase; 全大写
+                   lowercase 全小写
+                   capitalize 首字母大写 */
+    /* white-space: nowrap;   多行隐藏 
+    overflow:hidden; 多出的隐藏 
+    text-overflow:ellipsis; */
+
+}
+
+img{
+    width: 200px;
+    /* 垂直对齐 文字和图片对齐*/
+    /* vertical-align: top; center bottom 100% 1个行高 */
+    float: left;
+}
