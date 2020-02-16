@@ -1,0 +1,34 @@
+.div1{
+    width: 200px;
+    height: 300px;
+    background: yellow;
+    border: 1px solid black;
+    /* 定位 */
+    /* 固定定位 */
+    position: fixed;
+    /* top:; bottom:; 一对只用其中一个
+    left:;right:; */
+     bottom: 100px;
+    right: 50px;
+
+    
+
+}
+
+.div2{
+    /* 相对定位,相对父容器的移动 */
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+/* 绝对定位 绑气球
+   先去父级找有没有position relative，有就相对于父级定位
+   没有继续往上面找，直到body，做body的相对定位
+     */
+
+.div3{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}

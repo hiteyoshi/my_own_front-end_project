@@ -1,0 +1,49 @@
+/* 盒子
+所有的元素 都可以看成 是一个矩形盒子
+
+盒子的组成：
+内容 
+内边距：内容到框的距离
+盒子框
+外边距：框与框之间的距离 */
+
+.box1 {
+    /* 框 */
+    border: 1px solid black; 
+
+
+}
+.box2 {
+    /* 框 */
+    border: 1px solid black; 
+    /* 内边距 */
+    /* 上下左右 10px */
+    padding: 10px;
+    /* 上下20px 左右50px */
+    padding: 20px 50px;
+    /* 上20px 左右50px 下60px */
+    padding: 20px 50px 60px;
+    /* 上20px 右30px 下40px 左50px  顺时针方向*/
+    padding: 20px 30px 40px 50px;
+    /* 等同于 */
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ;
+    padding-left: ;
+    /* 背景不包含边框和外边距 */
+    background: yellow;
+
+    /* 外边距和内边距用法相同 */
+    margin: 30px;
+
+}
+
+/* 两个box上下margin会重叠，左右不会 */
+margin的重叠
+1. 对平级的元素 取最大值
+    解决方式
+     1. float:left;
+     2. inline-block   display:inline-block; 
+2. 嵌套关系 也是取最大值
+    解决方式：在子元素前后加上内容(文字 border padding overflow:hidden)
+     

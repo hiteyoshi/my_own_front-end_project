@@ -1,0 +1,70 @@
+div{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 20px;
+    /* float: left; */
+}
+
+.div1,.div2{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+.div3{
+    /* 这样就不会和div1 div2重叠了 
+       让浮动回到标准流中去*/
+    clear: both; 
+}
+
+.div4{
+    float: right;
+    width: 150px;
+    height: 100px;
+    background: blue;
+}
+
+.div5{
+    clear: both;
+}
+
+/* 等同于 */
+/* 7-11要漂浮 */
+.container{
+    /* margin: 20px; */
+    background: greenyellow;
+}
+.div7{
+    width: 200px;
+    height: 200px;
+    background: green;
+    
+}
+.div8,.div9,.div10,.div11{
+    float: left;
+    background: red;
+    width: 150px;
+    height: 100px;
+}
+/* 伪元素清理浮动 */
+.container::after{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+
+/* 伪元素清理浮动和margin */
+/* .container::after,.container::before{
+    content: "";
+    display: table;
+    
+
+}
+
+.container::after{
+    clear: both;
+} */
+
+
