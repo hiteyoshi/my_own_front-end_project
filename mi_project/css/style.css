@@ -1,0 +1,258 @@
+body,ul,li{
+    margin: 0px;
+    padding:0;
+}
+body{
+    
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    height: 2500px;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.topbar{
+    /* border: 1px solid black; */
+    background-color:#333;
+    height: 40px;
+}
+
+.container{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    width: 1226px;
+}
+.container::before, .clearfix::before{
+    content:"";
+    display: table;
+}
+.container::after, .clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.topbar a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.topbar a:hover{
+    color: #fff;
+
+}
+.topbar-nav{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0px;
+}
+.topbar-nav span{
+    font-size: 12px;
+    color: #424242;
+    margin: 0 .3em;
+}
+.topbar-info{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.topbar-cart{
+    float:right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.topbar-cart a{
+    padding-top: 0px;
+    display: inline-table;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 120px;
+    background-color: #424242;
+}
+
+.topbar-cart a:hover{
+    background-color: #fff;
+    color:#ff6700 ;
+}
+
+.header{
+    height: 100px;
+
+}
+.header-log{
+    float: left;
+    width: 62px;
+    height: 55px;
+    margin-top: 22px;
+    /* border: 1px solid black; */
+}
+.header-log a{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: #ff6700 url(../img/mi_log.png) no-repeat 50% 50%;
+}
+.header-log a.lr{
+    text-align: left;
+    text-indent: -999em;
+}
+
+.header-nav{
+    float: left;
+    width: 820px;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.header-nav .nav-list{
+    width: 820px;
+    height: 80px;
+    font-size: 16px;
+    padding: 12px 0 0 30px;
+}
+.header-nav .nav-list .nav-item{
+    float: left;
+}
+.header-nav .nav-list .nav-item a{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.header-nav .nav-list .nav-item a:hover{
+    color: #ff6700;
+}
+.header-search{
+    float: right;
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+    /* border: 1px solid black; */
+}
+
+.header-search .search-form{
+    position: relative;
+    display: block;
+    width: 296px;
+    height: 50px;
+}
+.header-search .search-form .search-text{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    display: block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+}
+.header-search .search-form .search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+}
+.header-search .search-form .search-btn:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.seckill{
+    background-color: #f5f5f5;
+}
+.seckill-head{
+    margin-top: 15px;
+    height: 170px;
+    background: url(../../misaka.png) no-repeat;
+}
+.seckill-nav{
+    margin: -68px 0 22px;
+}
+.seckill-nav ul{
+    height: 68px;
+    background-color: #414141;
+}
+.seckill-nav li{
+    display: block;
+    float: left;
+    color: #fff;
+    width: 20%;
+    height: 68px;
+    text-align: center;
+    /* margin-top: 10px; */
+    cursor: pointer;
+}
+
+.seckill-nav li em{
+    display: inline-block;
+    margin-left: 30px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: middle;
+}
+.seckill-nav li span{
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+    line-height: 1;
+    vertical-align: middle;
+}
+.seckill-nav .active{
+    background-color: #f1393a;
+}
+
+.seckill-nav ul li span em{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 0;
+    font-style: normal;
+    text-align: left;
+    line-height: 20px;
+}
+
+
+.seckill-goods li{
+    float: left;
+    width: 400px;
+    height: 190px;
+    background-color: #fff;
+
+}
+
+.seckill-goods .bg{
+    float: left;
+    width: 190px;
+    height: 190px;
+    border: 1px solid black;
+}
+.seckill-goods .bg img{
+    height: 190px;
+}
+.seckill-goods .info{
+    margin-left: 210px;
+    width: 190px;
+    height: 190px;
+    border: 1px solid black;
+}
+
+.seckill-notice{
+    font: 12px;
+    color: #999;
+    margin-top: 100px;
+    padding-bottom: 35px;
+}
