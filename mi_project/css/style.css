@@ -247,9 +247,56 @@ a{
     margin-left: 210px;
     width: 190px;
     height: 190px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding-top: 30px;
 }
-
+.seckill-goods .info .name{
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.seckill-goods .info .tips{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+    margin-top: 10px;
+}
+.seckill-goods .info .price{
+    font-size: 16px;
+    line-height: 16px;
+    color: #f1393a;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+.seckill-goods .info .price del{
+    color: #999;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 10px ;
+}
+.seckill-goods .info .btn{
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    background-color: #f1393a;
+    border: 1px solid #f1393a;
+    margin-top:19px ;
+}
+.seckill-goods .info .person{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999;
+    margin-top: 5px;
+}
 .seckill-notice{
     font: 12px;
     color: #999;
